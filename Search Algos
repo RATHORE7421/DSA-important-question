@@ -1,0 +1,33 @@
+Binary Search:
+       -Array must be sorted
+Code:
+       int binarySearch(int arr[], int l, int r, int x)
+{
+    while (l <= r) {
+        int m = l + (r - l) / 2;
+ 
+        // Check if x is present at mid
+        if (arr[m] == x)
+            return m;
+ 
+        // If x greater, ignore left half
+        if (arr[m] < x)
+            l = m + 1;
+ 
+        // If x is smaller, ignore right half
+        else
+            r = m - 1;
+    }
+ 
+    // if we reach here, then element was
+    // not present
+    return -1;
+}
+
+Some important notes:
+    -T(n) = T(n/2) + c 
+The above recurrence can be solved either using the Recurrence Tree method or the Master method. It falls in case II of the Master Method and the solution of the 
+recurrence is Theta(Logn) .
+    -Auxiliary Space: O(1) in case of iterative implementation. In the case of recursive implementation, O(Logn) recursion call stack space.
+    -Algorithmic Paradigm: Decrease and Conquer.
+    
