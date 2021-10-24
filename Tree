@@ -1,0 +1,8 @@
+Important que:
+1)Given a binary tree, find its maximum depth.
+The maximum depth of a binary tree is the number of nodes along the longest path from the root node down to the farthest leaf node.
+NOTE : The path has to end on a leaf node.
+
+2)Find the lowest common ancestor in an unordered binary tree given two values in the tree.
+Lowest common ancestor : the lowest common ancestor (LCA) of two nodes v and w in a tree or directed acyclic graph (DAG) is the lowest (i.e. deepest) node that has both
+v and w as descendants.
