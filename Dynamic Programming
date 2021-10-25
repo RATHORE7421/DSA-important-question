@@ -6,6 +6,7 @@ optimal (find max , min)
 given choice(have choice to choose elements)
 
 APPROACH : 
+There are two approaches topdown(iterative way store from top to bottom) & memosization(storage from last to top)
 Write recursive soln
 
 How to chck base consition:
@@ -15,13 +16,17 @@ Recursive function syntax:
 
 
 TYPES OF QUESTION:
-1)0/1 knapsack                             Types of knapsack problem                    
+1)0/1 knapsack 
+  How to identify:
+   -An array is given
+   -A no. is given(may be sum)
+   -Find optmal                                          Types of knapsack problem                    
 -Subset sum                                   1)Fractional knapsack:(Can be solved via greedy approcah)If complete item couldnot be accomodataed in knapsack , then you can put item in knapsack bh doing its fraction
 -Equal sum partition                          2)0/1 knapsack:Either put it complete o don't put
 -count of subset sum                          3)Unbounded knapsack:Multiple occurences of a single item
 -minimum subset sum difference
 -target sum
--
+-minm no. of difference with given dufference
 2)Unbounded knapsack
 3)Fibonacci
 4)LCS
