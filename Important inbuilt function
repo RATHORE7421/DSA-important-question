@@ -1,0 +1,5 @@
+1)memset(<matrix> , <value to be filled> , <size of matrix> ):
+LIMITATION:wit this you can only fill 0 & 1.
+ex: memset(t , -1 , sizeof(t));
+
+2)
