@@ -32,7 +32,19 @@ TYPES OF QUESTION:
 4)LCS
 5)LIS
 6)Kadane's Algo
-7)Matrix chain multiplicatoin
+7)Matrix chain multiplicatoin(will study recursive solution)
+-MCM(Input = array/string , will askoptimal)
+Proedure: 
+         Find i & j
+         Find Base Condition
+         Decide k range
+         Calcute ans from temp ans
+-Printing MCM
+-Evaluate exp to true/boolean parenthesis
+-Minm /max expression of ansy exp
+-palindromin partition
+-scramblestring
+-egg droping problem
 8)DP n trees 
 9)DP on grid
 10)Others
