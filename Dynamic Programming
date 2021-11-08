@@ -47,6 +47,9 @@ Proedure:
 -palindromin partition
 -scramblestring
 -egg droping problem
-8)DP n trees 
+8)DP n trees
+-General Syntax
+-How to identify: Traverse complete tree & operation fir each & every node
+
 9)DP on grid
 10)Others
