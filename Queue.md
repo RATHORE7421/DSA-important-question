@@ -3,17 +3,18 @@
 - Double ended queues are sequence containers with the feature of expansion and contraction on both the ends.
 - The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications.
 
-######
-- insertFront(): Adds an item at the front of Deque.
-- insertLast(): Adds an item at the rear of Deque.
-- deleteFront(): Deletes an item from front of Deque.
-- deleteLast(): Deletes an item from rear of Deque
+### Operations:
+- push_front(): Adds an item at the front of Deque.
+- push_back(): Adds an item at the rear of Deque.
+- pop_front(): Deletes an item from front of Deque.
+- pop_back(): Deletes an item from rear of Deque
 ######
 
-- getFront(): Gets the front item from queue.
-- getRear(): Gets the last item from queue.
+- front(): Gets the front item from queue.
+- back(): Gets the last item from queue.
 - isEmpty(): Checks whether Deque is empty or not.
 - isFull(): Checks whether Deque is full or not.
+- size() : gives size
 
 ### Application:
 the problems where elements need to be removed and or added both ends can be efficiently solved using Deque. For example:
