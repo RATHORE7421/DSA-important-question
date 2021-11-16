@@ -1,6 +1,9 @@
 # Deque:
-Deque supports both stack and queue operations, it can be used as both. The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications.
+- Deque supports both stack and queue operations, it can be used as both.
+- Double ended queues are sequence containers with the feature of expansion and contraction on both the ends.
+- The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications.
 
+######
 - insertFront(): Adds an item at the front of Deque.
 - insertLast(): Adds an item at the rear of Deque.
 - deleteFront(): Deletes an item from front of Deque.
